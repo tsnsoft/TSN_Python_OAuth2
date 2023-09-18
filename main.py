@@ -6,8 +6,8 @@ from googleapiclient.discovery import build
 # pip install google-api-python-client google-auth-oauthlib
 
 # Создаем проект в Google Cloud Platform
-# https://console.cloud.google.com/apis/credentials
 # https://console.cloud.google.com/cloud-resource-manager?authuser=1
+# https://console.cloud.google.com/apis/credentials
 
 # Делаем запрос на получение данных пользователя через браузер и Google API OAuth2
 flow = (InstalledAppFlow.from_client_secrets_file(
