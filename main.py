@@ -3,6 +3,8 @@
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
+# pip install google-api-python-client google-auth-oauthlib
+
 # Создаем проект в Google Cloud Platform
 # https://console.cloud.google.com/apis/credentials
 
